@@ -7,7 +7,7 @@ trusy and to copy the file to your local drive.
 To run an interactive terminal session in trusty:
 
 <pre>
-
+docker run -v $PWD:/foo -it ubuntu:trusty
 </pre>
 
 Then in your trusty session install the certs and copy them to the
@@ -15,7 +15,7 @@ directory you mapped to you local drive. The commands are:
 
 <pre>
 apt-get update -y
-apt-get install ca-certificates
+apt-get install -y ca-certificates
 cp /etc/ssl/certs/ca-certificates.crt /foo
 </pre>
 

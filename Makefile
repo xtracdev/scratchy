@@ -1,3 +1,2 @@
 image:
-	cp /etc/ssl/certs/ca-certificates.crt .
-	docker build -t $(IMAGE_TAG) .
+	docker build -t xtracdev/scratchy:latest .
