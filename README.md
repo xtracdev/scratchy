@@ -19,4 +19,6 @@ apt-get install -y ca-certificates
 cp /etc/ssl/certs/ca-certificates.crt /foo
 </pre>
 
+Once you have ca-certificates.crt in place you can create the image using make.
+
 This was inspired by the a [codeship blog article](https://blog.codeship.com/building-minimal-docker-containers-for-go-applications/)
