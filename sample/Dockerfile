@@ -1,4 +1,4 @@
-FROM xtracdev/scratchy:v1.0.0
+FROM xtracdev/scratchy:latest
 
 COPY bucketcat /opt/
 ENTRYPOINT ["/opt/bucketcat"]
